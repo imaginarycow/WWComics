@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					B52791431D7A7DF300FA01C8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VHQ88CT5TL;
 					};
 				};
 			};
@@ -251,7 +252,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Who's What - Comics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.Beliro.Who-s-What---Comics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,7 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Who's What - Comics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.Beliro.Who-s-What---Comics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
